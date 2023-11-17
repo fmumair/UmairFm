@@ -1,10 +1,3 @@
-body{
-    background-color: #172f43;
-    flex-direction: column;
-
-}
-
-
 .nav-link{
     color: white;
     margin-right: 15px;
@@ -16,375 +9,568 @@ body{
     color: white;
 }
 
-.name{
-    font-size: 2.6rem;
+.head_text{
+    padding-bottom: 10px;
     font-weight: bold;
     color: white;
-    font-family: 'Anton', sans-serif;
 }
 
-.slogan{
-    font-size: 1.8rem;
+
+body{
     color: white;
-    font-weight: bold;
+    background-color: #172f43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading{
+    margin-top: 30px;
+    font-size: 3rem;
+    margin-bottom: 0px;
     font-family: 'League Spartan', sans-serif;
 }
 
-.image{
-   width: 500px;
-   height: 500px;
-   margin-left: 40px;
+.slgn{
+    color: #8FCDB6;
+    font-family: selima;
+    font-size: 1.5rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 150px;
+    font-family: copperplate;
+    font-size: 28px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+
+}
+
+.number_1{
+    margin-bottom: 5px;
+}
+.number_2{
+    margin-top: 5px;
+    font-family: 'Sanchez', serif;
+    font-size: 18px;
+
+}
+
+.bigtext{
+    text-align: center;
+    width: 70%;
+    color: #8FCDB6;
+    border-top: 3px white dotted ;
+    border-bottom: 3px white dotted;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-family: lovelo line;
+}
+
+.p{
+    font-family: 'Sanchez', serif;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+
+.nav_2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
     
 }
 
-.img_div{
-    margin-top: 0px;
-    padding: 0px;
-}
-
-.social{
-    margin-top: 70px;
-    padding-right: 20px;
-}
-
-
-
-header{
-    margin-top: 30px;
-}
-
-
-.pb_2{
-    width: 25px;
-    height: 30px;
-    margin-bottom: 10px;
-}
-
-.text{
-    margin-top: 0px;
-}
-
-.owner_image{
-    margin-left:30px;
-}
-
-
-
-/*Button Code*/
-
-body {
+.nav_ul{
+    list-style: none;
     display: flex;
-    height:100vh;
-    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0px;
     justify-content: center;
-   
-  }
-  
-  .btn_cv {
-    color: #000000;
-    border: 4px solid white;
-    border-radius:10px;
-    padding: 15px 25px;
-    padding-bottom: 10px;
-    font-size:20px;
-    cursor: pointer;
-    font-weight: bold;
-    background: linear-gradient(to right, #71ddd3, #71ddd3, #71ddd3);
-    transition: .5s;
-    width: 242px;
-    margin-top: 10px;
-    box-shadow: 0 0 10px cyan, 0px 0 10px cyan;
-    font-family: 'Anton', sans-serif;
-
-  }
- 
-  .button:hover {
-    color: black;
-    background-color: #71ddd3;
-  }
-
-
-
-@media(max-width:1440px){
-    header{
-        margin-right: 90px;
-    }
-
-   
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-@media(max-width:1399px){
-    header{
-        margin-right: 0px;
-       
+.nav_ul > a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav_ul > a:active{
+    color: blue;
+    
+}
+
+
+
+
+@media(max-width:1056px){
+    .bigtext{
+        font-size: 3rem;
     }
+
+    .heading{
+        font-size: 2.5rem;
+    }
+
+    .itm_icn{
+        width: 80px;
+        height: 80px;
+    }
+
+    
+
+}
+
+@media(max-width:926px){
+    .bigtext{
+        font-size: 3.2rem;
+    }
+
+
+    .items{
+        width: 170px;
+    }
+
+
+    .main{
+        
+        gap: 120px;
+    }
+    
+
+    
+
+}
+
+
+@media(max-width:855px){
+    .bigtext{
+        font-size: 2.8rem;
+    }
+
+    .heading{
+        font-size: 2.3rem;
+    }
+
+    .slgn{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media(max-width:768px){
+    .nav_list{
+        padding-left: 5px;
+        padding-right: 7px;
+    }
+
+    .nav_b{
+        justify-content: center;
+    }
+
+    .bigtext{
+        font-size: 2.8rem;
+        margin-bottom: 0px;
+        margin-top: 60px;
+    }
+   
+    .itm_icn{
+        width: 80px;
+        height: 80px;
+    }
+
+    .items{
+        font-size: 22px;
+        width: 160px;
+    }
+
+
+    .main{
+        
+        gap: 100px;
+    }
+
+    .p{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .number_2{
+
+        font-size: 15px;
+    
+    }
+
+
+
+
+}
+
+
+@media(max-width:425px){
+
+    .nav_ul{
+
+        gap: 10px;
+   
+        
+    }
+
+    .main{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .items{
+        font-size: 24px;
+        width: auto;
+    }
+
+    .bigtext{
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .heading{
+        font-size: 2rem;
+    }
+
+    .slgn{
+        font-size: 1rem;
+    }
+
+    
+
+}
+
+@media(max-width:375px){
+
+    .itm_icn{
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .bigtext{
+        font-size: 1.37rem;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .items{
+        font-size: 23px;
+    }
+
+
+    .nav_b{
+        justify-content: center;
+    }
+
+
+
+
+
+
+ 
+}
+
+
+@media(max-width:320px){
+
+    .bigtext{
+        font-size: 1.16rem;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+  
+ 
+}
+
+
+
+@font-face {
+    font-family: lovelo line;
+    src: url(./fonts/Lovelo\ Line\ Bold.otf);
+}
+
+@font-face {
+    font-family: selima;
+    src: url(./fonts/selima_.otf);
+}
+
+@font-face {
+    font-family: copperplate;
+    src: url(./fonts/Copperplate\ Gothic\ Std\ 29\ BC.otf);
+}
+
+
+
+
+
+/*my Works page code*/
+
+
+
+.work_images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.wacth_img{
+
+    border-left: 5px solid #2F6596;
+    border-right: 3px solid #2F6596;
+    border-top: 8px solid #2F6596;
+    border-bottom: 8px solid #2F6596;
+
+}
+
+.brwn_boader{
+    border-left: 5px solid #59483B;
+    border-right: 3px solid #59483B;
+    border-top: 8px solid #59483B;
+    border-bottom: 8px solid #59483B;
+
+}
+
+.blue_boerder{
+    border-left: 5px solid #71ddd3;
+    border-right: 3px solid #71ddd3;
+    border-top: 8px solid #71ddd3;
+    border-bottom: 8px solid #71ddd3;
+
+}
+
+.box_img{
+    height: 200px;
+    width: 200px;
+}
+
+.width_img{
+    width: 290px;
+    height: 200px;
+
+}
+
+.long_img{
+    width: 150px;
+    height: 200px;
+}
+
+
+@media(max-width:1024px){
+
+    .box_img{
+        height: 180px;
+        width: 180px;
+    }
+    
+    .width_img{
+        width: 260px;
+        height: 180px;
+    
+    }
+    
+    .long_img{
+        width: 130px;
+        height: 180px;
+    }
+    
+    
+
+}
+
+@media(max-width:768px){
+
+    .box_img{
+        width: 140px;
+        height: 140px;
+
+    }
+    
+    .width_img{
+        width: 210px;
+        height: 140px;
+    
+    }
+    
+    .long_img{
+        width: 90px;
+        height: 140px;
+    }
+    
+}
+
+@media(max-width:425px){
+    .heading_work{
+        font-size: 40px;
+    }
+
+    .work_images{
+        align-items: center;
+    }
+
+    .box_img{
+        height: 180px;
+        width: 180px;
+    }
+    
+    .width_img{
+        width: 260px;
+        height: 180px;
+    
+    }
+    
+    .long_img{
+        width: 130px;
+        height: 180px;
+    }
+    
+    
+
+}
+
+/*About Me Style*/
+
+
+.about_main{
+    justify-content: center;
+    
+}
+
+.about_h1{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+@media(max-width:768px){
+
+    .about_main{
+        text-align: center;
+        
+    }
+    
+}
+
+
+
+/*Services Style*/
+
+.service_body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main_services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    font-family: selima;
+    align-items: center;
+    background-color: #5A6B72;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.service_logo{
+    height: 110px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+.service_text{
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 
 
 
 
 @media(max-width:1024px){
-    header{
-        margin-right: 0px;
-        margin-top:30px;
+
+    .service_body{
+        padding: 0PX;
     }
 
-    .image{
-        width: 430px;
-        height: 430px;
-        margin-left: 0px;
-         
-     }
-
-   .head{
-        padding-left: 50px;
-        padding-right: 30px;
-   }
-
-   .btn_cv{
-    width: 242px;
-   }
-   
-
-     
 }
-
-@media(max-width:991px){
-    .image{
-        width: 400px;
-        height: 400px;
-        margin-left: 20px;
-         
-     }
-     
-
-     .name{
-        font-size: 2.6rem;
-        font-weight: bold;
-        color: white;
-    }
-    
-    .slogan{
-        font-size: 1.6rem;
-        color: white;
-        font-weight: bold;
-    }
-  
-
-   
-
-    body{
-        height: auto;
-    }
-
-    .main{
-        flex-direction: row-reverse;
-        justify-content: flex-end
-    }
-
-    .scicon{
-        height: 40px;
-        width: 40px;
-    }
-
-    .btn_cv{
-        font-size: 18px;
-        width: 224px;
-        padding-top: 10px;
-    }
-
-        
-    .pb_2{
-        width: 23px;
-        height: 25px;
-    }
-
-
-    
-}
-
-
-@media(max-width:880px){
-
-    .nav-link{
-        color: white;
-        margin-right: 0px;
-    }
-
-    .name{
-        font-size: 1.9rem;
-        font-weight: bold;
-        color: white;
-    }
-    
-    .slogan{
-        font-size: 1.4rem;
-        color: white;
-        font-weight: bold;
-    }
-    .social {
-        margin-top: 50px;
-    }
-    .image {
-        width: 350px;
-        height: 350px;
-        margin-left: 0;
-    }
-}
-
-
-
-@media(max-width:767px){
-    .main{
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    body{
-        margin: 0px 25px 0px 25px;
-    }
-
-    .head{
-        padding: 0;
-    }
-
-    .text{
-        display: flex;
-        flex-direction: column;
-        align-items: center
-     }
-
-    .nav_list{
-        padding-left: 5px;
-        padding-right: 7px;
-    }
-
-    .img_div{
-        padding: 0px;
-    }
-
-
-    .text{
-        text-align: center;
-    }
-
-    .social{
-        margin-top: 30px;
-        margin-left: 0px;
-        padding-right: 0px;
-    }
-
-    .btn_cv{
-        font-size: 15px;
-        width: 198px;
-        margin: 0px;
-        padding-top: 10px;
-    }
-
-  
-    .pb_2 {
-        width: 17px;
-        height: 23px;
-    }
-    
-
-    .nav_b{
-        justify-content: center;
-    }
-}
-
 
 @media(max-width:425px){
 
 
 
-
-
-    .name{
-        font-size: 1.8rem;
-        font-weight: bold;
-        color: white;
+    .services{
+ 
+        height: 170px;
+        width: 170px;
+       
+    
     }
 
-    .slogan{
-        font-size: 1.4rem;
-        color: white;
-        font-weight: bold;
+
+    .service_text{
+        margin-top: 3PX;
+        font-size: 18px;
+        
     }
 
-    .pb_2 {
-        width: 20px;
-        height: 22px;
+    .service_heading{
+        font-size: 2rem;
     }
     
- 
+
 }
 
-
-@media (max-width: 380px){
-    .owner_image{
-        margin-left: 10px;
-    }
- 
-    .image {
-        width: 300px;
-        height: 300px;
-    }
-    .social{
-        margin-top: 30px;
-    }
-
-    .btn_cv{
-        font-size: 15px;
-    }
-
-   
-}
-
-@media (max-width: 360px){
-    .image {
-        width: 270px;
-        height: 270px;
-    }
-   
-    .name{
-        font-size: 1.7rem;
-    }
-
-    .slogan{
-        font-size: 1.2rem;
-    }
-    .scicon{
-        height: 35px;
-        width: 35px;
-    }
-
-    .pb_2 {
-        width: 18px;
-        height: 20px;
-    }
-
-    .btn_cv{
-        font-size: 13px;
-        width: 180px;
-    }
-
-    .nav_b{
-        font-size: 14px;
-    }
-    .owner_image{
-        margin-left: 0px;
-    }
- 
+@media(max-width:320px){
 
 
-   
+
+    .service_heading{
+        font-size: 2rem;
+    }
+    
+
 }
 
 
 
-  
+
+
+
+
 
 
 
