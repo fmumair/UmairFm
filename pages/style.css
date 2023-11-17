@@ -1,0 +1,577 @@
+.nav-link{
+    color: white;
+    margin-right: 15px;
+}
+
+.head_text{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.head_text{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+body{
+    color: white;
+    background-color: #172f43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading{
+    margin-top: 30px;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slgn{
+    color: #8FCDB6;
+    font-family: selima;
+    font-size: 1.5rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 150px;
+    font-family: copperplate;
+    font-size: 28px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+
+}
+
+.number_1{
+    margin-bottom: 5px;
+}
+.number_2{
+    margin-top: 5px;
+    font-family: 'Sanchez', serif;
+    font-size: 18px;
+
+}
+
+.bigtext{
+    text-align: center;
+    width: 70%;
+    color: #8FCDB6;
+    border-top: 3px white dotted ;
+    border-bottom: 3px white dotted;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-family: lovelo line;
+}
+
+.p{
+    font-family: 'Sanchez', serif;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+
+.nav_2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
+    
+}
+
+.nav_ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav_ul > a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav_ul > a:active{
+    color: blue;
+    
+}
+
+
+
+
+@media(max-width:1056px){
+    .bigtext{
+        font-size: 3rem;
+    }
+
+    .heading{
+        font-size: 2.5rem;
+    }
+
+    .itm_icn{
+        width: 80px;
+        height: 80px;
+    }
+
+    
+
+}
+
+@media(max-width:926px){
+    .bigtext{
+        font-size: 3.2rem;
+    }
+
+
+    .items{
+        width: 170px;
+    }
+
+
+    .main{
+        
+        gap: 120px;
+    }
+    
+
+    
+
+}
+
+
+@media(max-width:855px){
+    .bigtext{
+        font-size: 2.8rem;
+    }
+
+    .heading{
+        font-size: 2.3rem;
+    }
+
+    .slgn{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media(max-width:768px){
+    .nav_list{
+        padding-left: 5px;
+        padding-right: 7px;
+    }
+
+    .nav_b{
+        justify-content: center;
+    }
+
+    .bigtext{
+        font-size: 2.8rem;
+        margin-bottom: 0px;
+        margin-top: 60px;
+    }
+   
+    .itm_icn{
+        width: 80px;
+        height: 80px;
+    }
+
+    .items{
+        font-size: 22px;
+        width: 160px;
+    }
+
+
+    .main{
+        
+        gap: 100px;
+    }
+
+    .p{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .number_2{
+
+        font-size: 15px;
+    
+    }
+
+
+
+
+}
+
+
+@media(max-width:425px){
+
+    .nav_ul{
+
+        gap: 10px;
+   
+        
+    }
+
+    .main{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .items{
+        font-size: 24px;
+        width: auto;
+    }
+
+    .bigtext{
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .heading{
+        font-size: 2rem;
+    }
+
+    .slgn{
+        font-size: 1rem;
+    }
+
+    
+
+}
+
+@media(max-width:375px){
+
+    .itm_icn{
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .bigtext{
+        font-size: 1.37rem;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .items{
+        font-size: 23px;
+    }
+
+
+    .nav_b{
+        justify-content: center;
+    }
+
+
+
+
+
+
+ 
+}
+
+
+@media(max-width:320px){
+
+    .bigtext{
+        font-size: 1.16rem;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+  
+ 
+}
+
+
+
+@font-face {
+    font-family: lovelo line;
+    src: url(./fonts/Lovelo\ Line\ Bold.otf);
+}
+
+@font-face {
+    font-family: selima;
+    src: url(./fonts/selima_.otf);
+}
+
+@font-face {
+    font-family: copperplate;
+    src: url(./fonts/Copperplate\ Gothic\ Std\ 29\ BC.otf);
+}
+
+
+
+
+
+/*my Works page code*/
+
+
+
+.work_images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.wacth_img{
+
+    border-left: 5px solid #2F6596;
+    border-right: 3px solid #2F6596;
+    border-top: 8px solid #2F6596;
+    border-bottom: 8px solid #2F6596;
+
+}
+
+.brwn_boader{
+    border-left: 5px solid #59483B;
+    border-right: 3px solid #59483B;
+    border-top: 8px solid #59483B;
+    border-bottom: 8px solid #59483B;
+
+}
+
+.blue_boerder{
+    border-left: 5px solid #71ddd3;
+    border-right: 3px solid #71ddd3;
+    border-top: 8px solid #71ddd3;
+    border-bottom: 8px solid #71ddd3;
+
+}
+
+.box_img{
+    height: 200px;
+    width: 200px;
+}
+
+.width_img{
+    width: 290px;
+    height: 200px;
+
+}
+
+.long_img{
+    width: 150px;
+    height: 200px;
+}
+
+
+@media(max-width:1024px){
+
+    .box_img{
+        height: 180px;
+        width: 180px;
+    }
+    
+    .width_img{
+        width: 260px;
+        height: 180px;
+    
+    }
+    
+    .long_img{
+        width: 130px;
+        height: 180px;
+    }
+    
+    
+
+}
+
+@media(max-width:768px){
+
+    .box_img{
+        width: 140px;
+        height: 140px;
+
+    }
+    
+    .width_img{
+        width: 210px;
+        height: 140px;
+    
+    }
+    
+    .long_img{
+        width: 90px;
+        height: 140px;
+    }
+    
+}
+
+@media(max-width:425px){
+    .heading_work{
+        font-size: 40px;
+    }
+
+    .work_images{
+        align-items: center;
+    }
+
+    .box_img{
+        height: 180px;
+        width: 180px;
+    }
+    
+    .width_img{
+        width: 260px;
+        height: 180px;
+    
+    }
+    
+    .long_img{
+        width: 130px;
+        height: 180px;
+    }
+    
+    
+
+}
+
+/*About Me Style*/
+
+
+.about_main{
+    justify-content: center;
+    
+}
+
+.about_h1{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+@media(max-width:768px){
+
+    .about_main{
+        text-align: center;
+        
+    }
+    
+}
+
+
+
+/*Services Style*/
+
+.service_body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main_services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    font-family: selima;
+    align-items: center;
+    background-color: #5A6B72;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.service_logo{
+    height: 110px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+.service_text{
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+
+
+
+@media(max-width:1024px){
+
+    .service_body{
+        padding: 0PX;
+    }
+
+}
+
+@media(max-width:425px){
+
+
+
+    .services{
+ 
+        height: 170px;
+        width: 170px;
+       
+    
+    }
+
+
+    .service_text{
+        margin-top: 3PX;
+        font-size: 18px;
+        
+    }
+
+    .service_heading{
+        font-size: 2rem;
+    }
+    
+
+}
+
+@media(max-width:320px){
+
+
+
+    .service_heading{
+        font-size: 2rem;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
